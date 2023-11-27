@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#HeaderLogo {
+  width: 20%
+}
+
+#Banner1 {
+  background-image: url(head1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* #Baner2 {
+   width: 700px;
+  height: 500px; 
+} */
+
+#plefali {
+  text-align: justify;
+}
+
+#conimg {
+  padding: 32px;
+  vertical-align: middle;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  min-height: 1px;
+}
+
+#foot {
+  background-color: #081528;
+}
+
+#footlogo {
+  padding: 32px;
+}
+
+#footimg {
+  vertical-align: middle;
+  display: inline-block;
+  height: auto;
+  max-width: 14%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  min-height: 1px;
+}
+
+.txtorg {
+  color: #ff3a2d;
+}
+
+.bgorg {
+  background-color: #ff3a2d;
+}
+.bgorg:hover{
+  background-color: #ff3a2d;
+}
